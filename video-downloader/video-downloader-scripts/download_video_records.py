@@ -136,11 +136,10 @@ def record_download(video_data, link, current_video_id, download_status="Success
 
 
 if __name__ == "__main__":
-    links_file = "/home/Desktop/Youtube_VideoDownload/video_links.txt"
-    output_folder = "/home/Desktop/Youtube_VideoDownload/download"
-    # Needed the credentials only for the videos that require login (age-restricted, etc...)
-    youtube_username = "" # your youtube username
-    youtube_password = "" # your youtube account password
+    links_file = "/home/cle-dl-05/Desktop/ArooshWork/Youtube_VideoDownload/video_links.txt"
+    output_folder = "/home/cle-dl-05/Desktop/ArooshWork/Youtube_VideoDownload/download"
+    youtube_username = "aroshash196@gmail.com"
+    youtube_password = "arsh09051998"
 
     videos_links = read_link_file(links_file)
 
